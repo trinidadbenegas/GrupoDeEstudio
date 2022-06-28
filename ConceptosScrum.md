@@ -2,12 +2,16 @@
 
 
 ROLES:
-Product Owner
-Scrum Master
-Development Team
+<ul> 
+<li>Product Owner</li>
+<li> Scrum Master</li>
+<li>Development Team</li>
+</ul>
 
 CEREMONIAS:
-● Sprint Planning Meeting
-● Daily Scrum Meeting
-● Sprint Review Meeting
-● Sprint Retrospective Meeting
+<ul> 
+<li>Sprint Planning Meeting </li>
+<li> Daily Scrum Meeting</li>
+<li> Sprint Review Meeting</li>
+<li> Sprint Retrospective Meeting</li>
+</ul>
