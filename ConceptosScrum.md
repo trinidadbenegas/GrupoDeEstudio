@@ -36,3 +36,4 @@ INCREMENTO:
 <li> Es parte del producto realizada en un SPRINT.Es un paso en el camino al PRODUCT GOAL(objetivo de producto)</li>
 <li> Cada incremento (DONE) nos permite estar mas cerca.</li>
 <ul>
+
