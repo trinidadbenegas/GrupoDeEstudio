@@ -21,18 +21,18 @@ SCRUM: ARTEFACTOS
 PRODUCT BACKLOG
 <ul>  
 <li> Es una lista en la que  se encuentran todas las caracteristicas y requerimientos del producto a desarrollar o diseñar.</li>
-<li>Es dinamica.</li>
-<li>En el listado los requerimiento sesta priorizados.</li>
-<li>La actualiza el PO (product owner)</li>
+<li> Es dinamica.</li>
+<li> En el listado los requerimiento sesta priorizados.</li>
+<li> La actualiza el PO (product owner)</li>
 <ul>  
 SPRINT BACKLOG
 <ul>  
-<li>En el estan los  elementos elegidos del PRODUCT BACKLOG para el sprint(objetivos)</li>
-<li>Se construye en el SPRINT PLANING.</li>
-En el se muestran los avances obtenidos,generando el INCREMENTO</li>
+<li> En el estan los  elementos elegidos del PRODUCT BACKLOG para el sprint(objetivos)</li>
+<li> Se construye en el SPRINT PLANING.</li>
+<li> En el se muestran los avances obtenidos,generando el INCREMENTO</li>
 <ul>  
 INCREMENTO:
 <ul>
-<li>Es parte del producto realizada en un SPRINT.Es un paso en el camino al PRODUCT GOAL(objetivo de producto)</li>
-<li>Cada incremento (DONE) nos permite estar mas cerca.</li>
+<li> Es parte del producto realizada en un SPRINT.Es un paso en el camino al PRODUCT GOAL(objetivo de producto)</li>
+<li> Cada incremento (DONE) nos permite estar mas cerca.</li>
 <ul>
