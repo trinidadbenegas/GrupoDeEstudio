@@ -1,0 +1,25 @@
+# BASE DE DATOS
+Se llama base de datos al conjunto de informacion(ordenada de modo sistematico)perteneciente
+a un mismo contexto.
+Surgen de la necesidad humana de almacenar informacion.
+En la actualidad el manejo de las bases de datos se realiza mediante un sistema gestor de 
+base de datos (DBMS).
+El objetivo del gestor es proporcionar eficiencia y seguridad a la hora de extraer o alma-
+cenar informacion de la BD.
+Estan diseñados (BBDD)para gestionar grandes bloques de informacion que implica tanto defini-
+cion de estructura de almacenamiento como de mecanismos para la gestion de la informacion.
+Estos tipos de sistemas de datos se centralizan en una base de datos comun a todas las apli-
+caciones.
+Las bases de datos se definen una sola vez, pueden se accedidas de forma simultanea por
+varios usuarios.
+## Ventajas
+###Independencia de los datos y los programas y procesos.
+###Menor redundancia.
+###Integridad de datos.
+###Acceso a los datos mas eficientemente.
+###Menor espacio de almacenamiento.
+###Acceso simultaneo a los datos.
+##DESVENTAJAS
+###Instalacion mas costosa.
+###Requiere personal calificado.
+###Ausencia de estandares reales.
