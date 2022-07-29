@@ -1,0 +1,38 @@
+PRINCIPALES COMANDOS GIT:
+*Las llaves {} no hay que ponerlas
+
+//* clonar el repositorio de git a tu compu
+git clone {link del repositorio}
+
+//*cambiar de directorio
+git cd
+
+//* crear una rama nueva
+git branch {nombre de tu nueva rama}
+
+//*paraposicionarnos en una rama
+git checkout {nombre de la rama}
+
+//* subir el archivo al area de preparación
+git add
+
+//*ver el estado de los archivos
+git status
+
+
+//* remover archivo del area de preparación
+git restore {nombre del archivo ej: archivo.txt}
+
+//* 
+git commit -m "mensaje"
+
+//*traer todos los cambios que se hayan producido en el repositorio git.
+//* Es importante hacerlo antes de subir nuestros cambios para no pisar los cambios que hayan hecho nuestros compañeros de grupo.
+
+git pull origin main
+
+//* subir nuestro repositorio local al repositorio de github
+
+git push
+
+
