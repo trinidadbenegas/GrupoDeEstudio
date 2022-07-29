@@ -1,0 +1,18 @@
+Los sistemas gestores de base de datos son un tipo de software usado para  almacenar y manipular una base de datos, que permite a los usuarios acceder a 
+los datos de una manera rápida y estructurada garantizando la seguridad e integridad de los mismos.
+Surgen como respuesta a lo complejo que resultaba para los programas la lectura de los conjuntos de ficheros  (usados para relacionar la información almacenada), y 
+es a partir de los años 70 que comienza a salir al mercado software más  sofisticado, gracias al avance de la tecnología  es que año a año  se ve intensificado 
+uno de los propósitos principales: mantener la seguridad e integridad de los datos.
+En la actualidad existen muchos gestores de base de datos algunos de acceso libre y otros pagos. Entre los pagos podemos destacar Oracle y SQL Server, 
+mientras que los Open Source más utilizados son MySQL y Fire Bird.
+
+#Algunas de las herramientas que los SGBD proporcionan a los usuarios son:
+* Herramientas para la creación y especificación de los datos: así como la estructura de la base de datos. 
+* Herramientas para administrar y crear la estructura física.
+* Herramientas para la manipulación de los datos: de las bases de datos, para añadir, modificar, suprimir o consultar datos. 
+* Herramientas de recuperación.
+* Herramientas para la creación de copias de seguridad.
+* Herramientas para la gestión de la comunicación. 
+* Herramientas para la creación de aplicaciones.
+* Herramientas de instalación. 
+* Herramientas para la exportación e importación.
