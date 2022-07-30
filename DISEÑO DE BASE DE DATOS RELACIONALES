@@ -1,0 +1,49 @@
+#BASE DE DATOS RELACIONALES
+El modelo relacional fue creado por Codd a principios de los 70, actualmente está implementado en la mayoría de los SGBD usados en las empresas. 
+Su concepto principal es la relación o tabla; no se distingue entre tipos de entidades y tipos de relaciones porque la idea es que una relación o
+tabla expresa la relación entre los tipos de valores que contiene.
+El desarrollo de las bases de datos relacionales consta de tres etapas de diseño que en conjunto logran satisfacer las propiedades de generalidad, 
+calidad del producto y facilidad de uso, éstas etapas son: el diseño conceptual, el diseño lógico y el diseño físico...
+**1.Diseño Conceptual:**Su objetivo es definir las entidades y las relaciones entre ellos de forma abstracta, sin centrarse en ningún modelo lógico en concreto. 
+**2. Diseño lógico: **Su objetivo es definir el esquema de la base de datos según el modelo que implementa el SGBD objetivo.
+**3. Diseño físico: **Su objetivo es definir el esquema físico de la base de datos de forma que se den todas las instrucciones para que un DBA pueda implementar
+la base de datos sin ninguna  ambigüedad.
+
+#CONCEPTOS DEL MODELO RELACIONAL
+*ENTIDAD: También se les llama tuplas o filas de la relación.
+*ATRIBUTO: También se le llaman campos o columnas de la relación. 
+*ESQUEMA DE UNA RELACIÓN: Viene dado por el nombre de la relación y una lista de atributos. Es el tipo de entidad.
+*CONJUNTO DE ENTIDADES: Relación o tabla.
+*CLAVE: Todas las tablas deben tener claves.
+*INSTANCIA DE UNA RELACIÓN: Son conjuntos de entidades (cada entidad se representa como una tupla). Las instancias de una relación se representan con tablas.
+
+##RESTRICCIONES DE INTEGRIDAD
+Uno de los aspectos más importantes para añadir consistencia a los diseños de bases de datos: son las restricciones de integridad que  proporcionan un medio 
+de asegurar que las modificaciones hechas a la base de datos por los usuarios autorizados no provoquen la pérdida  de la consistencia
+de los datos (protegen a la base de datos contra los daños accidentales).
+*LAS RESTRICCIONES DE LOS DOMINIOS: son la forma más simple  de restricción de integridad.  Se especifica para cada atributo un dominio de valores posibles.
+ *LA INTEGRIDAD REFERENCIAL: permite asegurar que un valor que aparece en una relación para un conjunto de atributos determinados aparezca también en
+ otra relación para ese mismo conjunto de atributos.
+ *UNA DEPENDENCIA FUNCIONAL (DF): Determina el valor de un conjunto de atributos a partir del valor de otro conjunto de atributos. 
+ *UN DISPARADOR: es una orden que el sistema ejecuta de manera automática como efecto secundario de la modificación de la base de datos.  
+ 
+ ##NORMALIZACIÓN 
+ La forma normal de un esquema de relación determina su grado de calidad con respecto a reducir dos efectos no deseados:la redundancia de 
+ datos y las anomalías que produce esta redundancia. 
+ *PRIMERA FORMA NORMAL: establece que los dominios de los atributos sólo pueden ser atómicos evitando las relaciones dentro de las relaciones. 
+ *SEGUNDA FORMA NORMAL: cada atributo que no forme parte de la clave primaria depende funcional y completamente de cada clave.            
+ *TERCERA FORMA NORMAL: se basa en el concepto de dependencia funcional transitiva.
+ *FORMA NORMAL DE BOYCE-CODD (FNBC): es más estricta que la tercera forma normal porque cada relación en FNBC está en 3FN pero lo contrario no se cumple.
+ 
+ ##IDENTIFICADORES: estos nombres que se usan para designar los elementos de una base de datos se construyen generalmente con letras y números. 
+ ##TABLAS:
+ representan entidades y sus nombres deberían describir las entidades que representan. Algunas tablas pueden representar también relaciones entre entidades.
+ ##RESTRICCIONES:
+ hay que utilizar una abreviatura de dos letras para identificar la naturaleza de la restricción: CP (para clave principal), IR (para integridad referencial),
+ CO (para la de comprobación) y UN (para la de unicidad).
+ ##CONTROLES:
+ cada tipo de control se debería denominar con una indicación del tipo de control (anteponiendo a un nombre descriptor un prefijo que indique el tipo).
+ ##VARIABLES:
+ cada variable se debería denominar con una indicación del tipo de la variable (anteponiendo a un nombre descriptor un prefijo que indique el tipo).
+ ##OBJETOS:
+ cada objeto de la base de datos se debería denominar con una indicación del tipo de objeto (anteponiendo a un nombre descriptor un prefijo que indique el tipo).
